@@ -4,5 +4,6 @@ def hello_t(&blk)
 
 end 
 
-# hello_t
+arr = ["Tim", "Tom", "Jim"] 
+hello_t(arr)
 
