@@ -1,6 +1,5 @@
-def hello_t(array=nil)
-  array = self if array.nil?
-  array.each { |name| puts "Hi, #{name}"}
+def hello_t(&blk)
+  puts ""
 
 end 
 
