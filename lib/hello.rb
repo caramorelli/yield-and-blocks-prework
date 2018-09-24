@@ -1,5 +1,5 @@
 def hello_t(&blk)
-  puts ""
+  puts "Hey! No block was given!"
 
 end 
 
