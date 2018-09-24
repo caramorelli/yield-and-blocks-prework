@@ -1,4 +1,4 @@
-def hello_t(&blk)
+def hello_t(arrau)
   puts "Hey! No block was given!" if blk.nil?
   puts yield
 
