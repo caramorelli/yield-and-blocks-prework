@@ -1,5 +1,5 @@
-def hello_t(arrau)
-  puts "Hey! No block was given!" if blk.nil?
+def hello_t(array)
+  # puts "Hey! No block was given!" if blk.nil?
   puts yield
 
 end 
