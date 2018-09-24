@@ -1,6 +1,6 @@
 def hello_t
   self.each { |name| puts "Hi, #{name}"}
-end
+end 
 
 # hello_t
 
