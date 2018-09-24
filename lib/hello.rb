@@ -1,4 +1,4 @@
-def hello_t
+def hello_t(array)
   self.each { |name| puts "Hi, #{name}"}
 end 
 
