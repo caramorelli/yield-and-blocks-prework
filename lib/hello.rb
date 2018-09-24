@@ -8,5 +8,5 @@ def hello_t(array)
 end 
 
 arr = ["Tim", "Tom", "Jim"] 
-hello_t(arr) { |ele| puts "Hi, ele"}
+hello_t(arr) { |ele| puts "Hi, #{ele}"}
 
