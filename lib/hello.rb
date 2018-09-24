@@ -1,7 +1,7 @@
 def hello_t(array)
   # puts "Hey! No block was given!" if blk.nil?
   array.each do |w|
-    puts yield(w)
+    yield(w)
   end 
 
 end 
