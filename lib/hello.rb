@@ -1,12 +1,7 @@
 def hello_t(array)
-  # puts "Hey! No block was given!" if blk.nil?
-  # return "Hey! No block was given!" if blk.nil?
+  puts "Hey! No block was given!" unless block_given?
   array = self if array.nil?
-  if block_given?
-    array.each { |w| yield(w) }
-  else 
-    puts "Hey! No block was given!"
-  end 
+  array.each { |w| yield(w) }
 end 
 
 # arr = ["Tim", "Tom", "Jim"] 
